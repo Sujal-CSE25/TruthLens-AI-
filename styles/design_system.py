@@ -327,8 +327,10 @@ div[data-testid="metric-container"] label {
 }
 .hero-desc {
     font-size: clamp(0.95rem, 1.8vw, 1.08rem);
-    color: var(--tx-m); max-width: 560px;
-    margin: 0 auto 34px; line-height: 1.68;
+    color: var(--tx-m);
+    max-width: 560px;
+    margin: 0 auto 34px;
+    line-height: 1.68;
 }
 .hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 52px; }
 .btn-hero-primary {
