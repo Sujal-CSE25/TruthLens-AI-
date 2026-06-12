@@ -325,13 +325,16 @@ div[data-testid="metric-container"] label {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.hero-desc {
+.hero-wrap .hero-desc {
     font-size: clamp(1rem, 1.8vw, 1.1rem);
     color: var(--tx-m);
     max-width: 700px;
-    margin: 0 auto 34px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 34px !important;
     line-height: 1.7;
     text-align: center !important;
+    display: block !important;
 }
 .hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 52px; }
 .btn-hero-primary {
