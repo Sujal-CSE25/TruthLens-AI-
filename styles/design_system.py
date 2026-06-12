@@ -125,7 +125,10 @@ div[class*="css-"],
 }
 
 .nav-brand {
-    display: flex; align-items: center; gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     height: 60px;
 }
 .nav-brand-logo {
