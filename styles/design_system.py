@@ -131,13 +131,12 @@ div[class*="css-"],
     height: 60px;
 }
 .nav-brand-logo {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -1px;   /* adjust */
+    width: 32px; height: 32px;
+    background: linear-gradient(135deg, var(--p), var(--s));
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.9rem; font-weight: 800; color: white;
+    flex-shrink: 0;
 }
 .nav-brand-text {
     font-family: var(--font-d);
