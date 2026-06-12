@@ -326,11 +326,12 @@ div[data-testid="metric-container"] label {
     background-clip: text;
 }
 .hero-desc {
-    font-size: clamp(0.95rem, 1.8vw, 1.08rem);
+    font-size: clamp(1rem, 1.8vw, 1.1rem);
     color: var(--tx-m);
-    max-width: 560px;
+    max-width: 700px;
     margin: 0 auto 34px;
-    line-height: 1.68;
+    line-height: 1.7;
+    text-align: center !important;
 }
 .hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 52px; }
 .btn-hero-primary {
