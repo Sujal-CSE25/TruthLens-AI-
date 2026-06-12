@@ -84,10 +84,10 @@ div[class*="css-"],
 .stDeployButton,
 [data-testid="stSidebar"] { display: none !important; }
 
-.block-container {
-    max-width: 1400px !important;
-    padding: 0 28px 80px !important;
-    margin: 0 auto !important;
+    .block-container  {
+    max-width: 100% !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
 ::-webkit-scrollbar { width: 4px; height: 4px; }
