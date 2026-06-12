@@ -84,10 +84,10 @@ div[class*="css-"],
 .stDeployButton,
 [data-testid="stSidebar"] { display: none !important; }
 
-    .block-container  {
-    max-width: 100% !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+   .block-container {
+    max-width: 1200px !important;
+    padding: 0 28px 80px !important;
+    margin: 0 auto !important;
 }
 
 ::-webkit-scrollbar { width: 4px; height: 4px; }
@@ -316,7 +316,7 @@ div[data-testid="metric-container"] label {
 }
 .hero-title {
     font-family: var(--font-d);
-    font-size: 6.5rem;
+    font-size: clamp(4.5rem, 7vw, 6.5rem);
     font-weight: 900; line-height: 0.95;
     margin: 0 0 20px;
     background: linear-gradient(140deg, #FFFFFF 20%, var(--p-light) 55%, var(--s) 100%);
