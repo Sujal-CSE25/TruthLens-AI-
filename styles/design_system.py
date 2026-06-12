@@ -85,7 +85,7 @@ div[class*="css-"],
 [data-testid="stSidebar"] { display: none !important; }
 
 .block-container {
-    max-width: 1200px !important;
+    max-width: 1400px !important;
     padding: 0 28px 80px !important;
     margin: 0 auto !important;
 }
@@ -316,7 +316,7 @@ div[data-testid="metric-container"] label {
 }
 .hero-title {
     font-family: var(--font-d);
-    font-size: clamp(3rem, 8vw, 5.8rem);
+    font-size: clamp(4.5rem, 7vw, 6.5rem);
     font-weight: 900; line-height: 0.95;
     margin: 0 0 20px;
     background: linear-gradient(140deg, #FFFFFF 20%, var(--p-light) 55%, var(--s) 100%);
