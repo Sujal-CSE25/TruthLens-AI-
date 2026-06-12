@@ -14,7 +14,7 @@ def render_home():
         """
         <div class="hero-wrap fade-in">
           <div class="hero-eyebrow">Powered by Google Gemini 2.0</div>
-          <h1 class="hero-title">TruthLens AI</h1>
+        <div class="hero-title">TruthLens AI</div>
           <p class="hero-desc">
             Detect fake news, misinformation, manipulated media, and deepfakes using
             advanced AI models with explainable, trustworthy results.
